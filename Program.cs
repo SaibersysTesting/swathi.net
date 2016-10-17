@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProductApplicationProject
+namespace MathamaticallWindowform
 {
     static class Program
     {
@@ -15,7 +16,7 @@ namespace ProductApplicationProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Product_Menu_Form());
+            Application.Run(new Form1());
         }
     }
 }
